@@ -16,7 +16,7 @@
   var attachImg;
   for (i = 0; i < attachImgs.length; ++i) {
     attachImg = attachImgs[i];
-    if (attachImg.innerHTML.match('請點選觀看圖片')) {
+    if (attachImg.innerHTML.match('請點選觀看圖片') || attachImg.innerHTML.match('開啟圖片')) {
       attachImg.click();
     }
   }
