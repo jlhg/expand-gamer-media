@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         巴哈姆特自動開圖
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  自動展開巴哈姆特哈拉區文章內的圖片和影片
 // @author       Jian-Long Huang
-// @match        https://forum.gamer.com.tw/C.php*
+// @match        https://forum.gamer.com.tw/*.php*
 // @grant        none
 // ==/UserScript==
 
