@@ -25,7 +25,7 @@
   var attachMov;
   for (i = 0; i < attachMovs.length; ++i) {
     attachMov = attachMovs[i];
-    if (attachMov.innerHTML.match('請點選觀看影片')) {
+    if (attachMov.innerHTML.match('請點選觀看影片') || attachMov.innerHTML.match('開啟影片')) {
       attachMov.click();
     }
   }
